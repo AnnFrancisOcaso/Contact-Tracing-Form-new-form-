@@ -99,6 +99,7 @@ namespace Contact_Tracing_Form_02
             this.coughNorb = new System.Windows.Forms.RadioButton();
             this.doyouexperiencelbl = new System.Windows.Forms.Label();
             this.Submit = new System.Windows.Forms.Button();
+            this.TractRecordsbttn = new System.Windows.Forms.Button();
             this.ctgroup.SuspendLayout();
             this.exposuregroup.SuspendLayout();
             this.patientgroup.SuspendLayout();
@@ -837,11 +838,24 @@ namespace Contact_Tracing_Form_02
             this.Submit.UseVisualStyleBackColor = true;
             this.Submit.Click += new System.EventHandler(this.Submit_Click);
             // 
+            // TractRecordsbttn
+            // 
+            this.TractRecordsbttn.Font = new System.Drawing.Font("Sitka Display", 12F);
+            this.TractRecordsbttn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.TractRecordsbttn.Location = new System.Drawing.Point(570, 768);
+            this.TractRecordsbttn.Name = "TractRecordsbttn";
+            this.TractRecordsbttn.Size = new System.Drawing.Size(122, 33);
+            this.TractRecordsbttn.TabIndex = 122;
+            this.TractRecordsbttn.Text = "History";
+            this.TractRecordsbttn.UseVisualStyleBackColor = true;
+            this.TractRecordsbttn.Click += new System.EventHandler(this.TractRecordsbttn_Click);
+            // 
             // Contacttracingform
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(722, 821);
+            this.Controls.Add(this.TractRecordsbttn);
             this.Controls.Add(this.Submit);
             this.Controls.Add(this.ctgroup);
             this.Controls.Add(this.exposuregroup);
@@ -990,6 +1004,7 @@ namespace Contact_Tracing_Form_02
         private System.Windows.Forms.RadioButton coughNorb;
         private System.Windows.Forms.Label doyouexperiencelbl;
         private System.Windows.Forms.Button Submit;
+        private System.Windows.Forms.Button TractRecordsbttn;
     }
 }
 

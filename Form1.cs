@@ -198,6 +198,13 @@ namespace Contact_Tracing_Form_02
             Application.Restart();
             Environment.Exit(0);
         }
+
+        private void TractRecordsbttn_Click(object sender, EventArgs e)
+        {
+            Listofrecordsform f2 = new Listofrecordsform();
+            f2.Show();
+            Visible = false;
+        }
+
     }
-    
 }

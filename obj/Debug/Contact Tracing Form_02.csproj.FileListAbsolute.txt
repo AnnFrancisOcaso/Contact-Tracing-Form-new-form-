@@ -8,3 +8,5 @@ C:\Users\Phenyang\source\repos\Contact Tracing Form_02\obj\Debug\Contact Tracing
 C:\Users\Phenyang\source\repos\Contact Tracing Form_02\obj\Debug\Contact Tracing Form_02.csproj.CoreCompileInputs.cache
 C:\Users\Phenyang\source\repos\Contact Tracing Form_02\obj\Debug\Contact Tracing Form_02.exe
 C:\Users\Phenyang\source\repos\Contact Tracing Form_02\obj\Debug\Contact Tracing Form_02.pdb
+C:\Users\Phenyang\source\repos\Contact Tracing Form_02\obj\Debug\Contact_Tracing_Form_02.Listofrecordsform.resources
+C:\Users\Phenyang\source\repos\Contact Tracing Form_02\obj\Debug\Contact_Tracing_Form_02.Findspecificrecord.resources
