@@ -31,11 +31,12 @@ namespace Contact_Tracing_Form_02
         {
             this.Backbttn = new System.Windows.Forms.Button();
             this.Nextbttn = new System.Windows.Forms.Button();
+            this.Listbttn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Backbttn
             // 
-            this.Backbttn.Location = new System.Drawing.Point(12, 411);
+            this.Backbttn.Location = new System.Drawing.Point(12, 200);
             this.Backbttn.Name = "Backbttn";
             this.Backbttn.Size = new System.Drawing.Size(84, 27);
             this.Backbttn.TabIndex = 1;
@@ -45,7 +46,7 @@ namespace Contact_Tracing_Form_02
             // 
             // Nextbttn
             // 
-            this.Nextbttn.Location = new System.Drawing.Point(377, 411);
+            this.Nextbttn.Location = new System.Drawing.Point(252, 200);
             this.Nextbttn.Name = "Nextbttn";
             this.Nextbttn.Size = new System.Drawing.Size(84, 27);
             this.Nextbttn.TabIndex = 2;
@@ -53,11 +54,22 @@ namespace Contact_Tracing_Form_02
             this.Nextbttn.UseVisualStyleBackColor = true;
             this.Nextbttn.Click += new System.EventHandler(this.Nextbttn_Click);
             // 
+            // Listbttn
+            // 
+            this.Listbttn.Location = new System.Drawing.Point(94, 80);
+            this.Listbttn.Name = "Listbttn";
+            this.Listbttn.Size = new System.Drawing.Size(160, 36);
+            this.Listbttn.TabIndex = 3;
+            this.Listbttn.Text = "Records";
+            this.Listbttn.UseVisualStyleBackColor = true;
+            this.Listbttn.Click += new System.EventHandler(this.Listbttn_Click);
+            // 
             // Listofrecordsform
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(473, 450);
+            this.ClientSize = new System.Drawing.Size(350, 239);
+            this.Controls.Add(this.Listbttn);
             this.Controls.Add(this.Nextbttn);
             this.Controls.Add(this.Backbttn);
             this.Name = "Listofrecordsform";
@@ -69,5 +81,6 @@ namespace Contact_Tracing_Form_02
         #endregion
         private System.Windows.Forms.Button Backbttn;
         private System.Windows.Forms.Button Nextbttn;
+        private System.Windows.Forms.Button Listbttn;
     }
 }
